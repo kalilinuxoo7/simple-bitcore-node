@@ -1,13 +1,13 @@
 {
-  "name": "amigo-bitcore-node",
+  "name": "simple-bitcore-node",
   "description": "Full node with extended capabilities using Bitcore and Bitcoin Core",
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.4",
   "main": "./index.js",
-  "repository": "git://github.com/amigochain/amigo-bitcore-node.git",
-  "homepage": "https://github.com/amigochain/amigo-bitcore-node",
+  "repository": "git://github.com/simplechain/simple-bitcore-node.git",
+  "homepage": "https://github.com/kalilinuxoo7/simple-bitcore-node",
   "bugs": {
-    "url": "https://github.com/amigochain/amigo-bitcore-node/issues"
+    "url": "https://github.com/kalilinuxoo7/simple-bitcore-node/issues"
   },
   "contributors": [
     {
@@ -54,8 +54,8 @@
     "liftoff": "^2.3.0",
     "lru-cache": "^4.0.1",
     "mkdirp": "0.5.0",
-    "amigo-bitcoind-rpc": "git://github.com/amigochain/amigo-bitcoind-rpc",
-    "amigo-bitcore-lib": "git://github.com/amigochain/amigo-bitcore-lib",
+    "simple-bitcoind-rpc": "git://github.com/simplechain/simple-bitcoind-rpc",
+    "simple-bitcore-lib": "git://github.com/simplechain/simple-bitcore-lib",
     "path-is-absolute": "^1.0.0",
     "semver": "^5.0.1",
     "socket.io": "^1.4.5",

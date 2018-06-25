@@ -1,10 +1,10 @@
-# amigo Service
+# simple Service
 
-The amigo Service is a Node.js interface to [amigo Core](https://github.com/amigochain/amigo-core) for querying information about the amigo block chain. It will manage starting and stopping `amigod` or connect to several running `amigod` processes. It uses an instance of a amigo with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
+The simple Service is a Node.js interface to [simple Core](https://github.com/kalilinuxoo7/simple-core) for querying information about the simple block chain. It will manage starting and stopping `simpled` or connect to several running `simpled` processes. It uses an instance of a simple with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
 
 ## Configuration
 
-The default configuration will include a "spawn" configuration in "amigod". This defines the location of the block chain database and the location of the `amigod` daemon executable. The below configuration points to a local clone of `amigo`, and will start `amigod` automatically with your Node.js application.
+The default configuration will include a "spawn" configuration in "simpled". This defines the location of the block chain database and the location of the `simpled` daemon executable. The below configuration points to a local clone of `simple`, and will start `simpled` automatically with your Node.js application.
 
 ```json
   "servicesConfig": {
@@ -17,7 +17,7 @@ The default configuration will include a "spawn" configuration in "amigod". This
   }
 ```
 
-It's also possible to connect to separately managed `amigod` processes with round-robin quering, for example:
+It's also possible to connect to separately managed `simpled` processes with round-robin quering, for example:
 
 ```json
   "servicesConfig": {

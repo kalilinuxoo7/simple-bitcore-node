@@ -4,9 +4,9 @@ var path = require('path');
 var async = require('async');
 var spawn = require('child_process').spawn;
 
-var BitcoinRPC = require('amigo-bitcoind-rpc');
+var BitcoinRPC = require('simple-bitcoind-rpc');
 var rimraf = require('rimraf');
-var bitcore = require('amigo-bitcore-lib');
+var bitcore = require('simple-bitcore-lib');
 var chai = require('chai');
 var should = chai.should();
 
@@ -19,7 +19,7 @@ var BitcoinService = index.services.Bitcoin;
 describe('Bitcoin Cluster', function() {
   var node;
   var daemons = [];
-  var execPath = path.resolve(__dirname, '../bin/amigod');
+  var execPath = path.resolve(__dirname, '../bin/simpled');
   var nodesConf = [
     {
       datadir: path.resolve(__dirname, './data/node1'),

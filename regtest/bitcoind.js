@@ -7,7 +7,7 @@ var index = require('..');
 var log = index.log;
 
 var chai = require('chai');
-var bitcore = require('amigo-bitcore-lib');
+var bitcore = require('simple-bitcore-lib');
 var BN = bitcore.crypto.BN;
 var async = require('async');
 var rimraf = require('rimraf');
@@ -17,7 +17,7 @@ var bitcoind;
 var should = chai.should();
 var assert = chai.assert;
 var sinon = require('sinon');
-var BitcoinRPC = require('amigo-bitcoind-rpc');
+var BitcoinRPC = require('simple-bitcoind-rpc');
 var transactionData = [];
 var blockHashes = [];
 var utxos;
@@ -46,7 +46,7 @@ describe('Bitcoind Functionality', function() {
       bitcoind = require('../').services.Bitcoin({
         spawn: {
           datadir: datadir,
-          exec: path.resolve(__dirname, '../bin/amigod')
+          exec: path.resolve(__dirname, '../bin/simpled')
         },
         node: {
           network: regtestNetwork,

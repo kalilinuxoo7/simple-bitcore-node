@@ -1,7 +1,7 @@
 Bitcore Node
 ============
 
-A amigo full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to amigo Core (with additional indexing enabled) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A simple full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to simple Core (with additional indexing enabled) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -35,15 +35,15 @@ This will create a directory with configuration files for your node and install 
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/amigochain/amigo-insight-api)
-- [Insight UI](https://github.com/amigochain/amigo-insight-ui)
+- [Insight API](https://github.com/kalilinuxoo7/simple-insight-api)
+- [Insight UI](https://github.com/kalilinuxoo7/simple-insight-ui)
 - [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service)
 
 ## Documentation
 
 - [Upgrade Notes](docs/upgrade.md)
 - [Services](docs/services.md)
-  - [Bitcoind](docs/services/bitcoind.md) - Interface to amigo Core
+  - [Bitcoind](docs/services/bitcoind.md) - Interface to simple Core
   - [Web](docs/services/web.md) - Creates an express application over which services can expose their web/API content
 - [Development Environment](docs/development.md) - Guide for setting up a development environment
 - [Node](docs/node.md) - Details on the node constructor
@@ -56,7 +56,7 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## License
 
-Code released under [the MIT license](https://github.com/amigochain/amigo-bitcore-node/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/kalilinuxoo7/simple-bitcore-node/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc.
 

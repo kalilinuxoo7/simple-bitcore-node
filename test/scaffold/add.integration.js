@@ -94,8 +94,8 @@ describe('#add', function() {
       var callCount = 0;
       var oldPackage = {
         dependencies: {
-          'amigo-bitcore-lib': 'file:../amigo-bitcore-lib',
-          'amigo-bitcore-node': 'file:../amigo-bitcore-node'
+          'simple-bitcore-lib': 'file:../simple-bitcore-lib',
+          'simple-bitcore-node': 'file:../simple-bitcore-node'
         }
       };
       var spawn = sinon.stub().returns({

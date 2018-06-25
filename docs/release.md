@@ -1,6 +1,6 @@
 # Release Process
 
-Binaries for amigod are distributed for convenience and built deterministically with Gitian, signatures for amigod are located at the  respository.
+Binaries for simpled are distributed for convenience and built deterministically with Gitian, signatures for simpled are located at the  respository.
 
 ## How to Release
 
